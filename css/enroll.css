@@ -1,0 +1,98 @@
+body {
+    background-color: #ffffff !important;
+}
+header {
+    background-color: #00319c;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} 
+
+.course-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 11rem 2rem 5rem 2rem;
+}
+.course-card {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+.course-card p {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.title {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+.title h2 {
+    text-align: center;
+    background-color: #006eff;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0; 
+    width: 100%;
+    box-sizing: border-box; 
+    border-radius: 8px 8px 0 0;
+}
+.course-card button {
+    padding: 10px;
+    border: none;
+    background-color: #058549;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+}
+.course-card button:hover {
+    background-color: #00319c;
+}
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+    .enroll-container {
+        margin: 10vh auto;
+    }
+    .course-card {
+        width: 320px;
+    }
+    .course-card-container {
+        padding: 1rem;
+    }
+    header {
+        background-color: var(--CRTBLUE);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }   
+    body {
+        background-color: #ffffff !important;
+    }
+}
